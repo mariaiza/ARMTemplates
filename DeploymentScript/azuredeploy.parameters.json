@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "keyVaultName": {
+            "value": "AbcTempKv"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "enabledForDeployment": {
+            "value": false
+        },
+        "enabledForDiskEncryption": {
+            "value": false
+        },
+        "enabledForTemplateDeployment": {
+            "value": false
+        },
+        "tenantId": {
+            "value": "78731c40-15ca-4cd7-938f-4960a2cb0713"
+        },
+        "objectId": {
+            "value": "ee5dcf8b-092c-4270-af7d-7d7088ed1aea"
+        },
+        "keysPermissions": {
+            "value": [
+                "list"
+            ]
+        },
+        "secretsPermissions": {
+            "value": [
+                "list"
+            ]
+        },
+        "skuName": {
+            "value": "standard"
+        },
+        "identityId": {
+            "value": "/subscriptions/d6dfa72c-0833-4583-a4c4-4e148172b504/resourcegroups/AbctempRg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/AbcUaIdentity"
+        }
+    }
+}
